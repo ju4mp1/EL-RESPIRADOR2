@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario y Tarjeta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+
+        <div class="contenedor" id="formulario">
+            <h2>Formulario</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+            
+            <label for="apodo">Apodo:</label>
+            <input type="text" id="apodo" placeholder="Escribe tu apodo">
+            
+            <label for="descripcion">Descripción:</label>
+            <input id="descripcion" placeholder="Escribe una descripción">
+            
+            <label for="imagen">URL Imagen:</label>
+            <input type="text" id="imagen" placeholder="Pega una URL de imagen">
+
+
+            <button id="actualizar-tarjeta">Actualizar Tarjeta</button>
+        </div>
+
+
+        <div class="contenedor" id="tarjeta">
+            <h2>Tarjeta</h2>
+            <div class="tarjeta">
+                <img id="tarjeta-imagen" src="https://via.placeholder.com/120" alt="Imagen" class="imagen-tarjeta">
+                <h3 id="tarjeta-nombre">Nombre</h3>
+                <h4 id="tarjeta-apodo">Apodo</h4>
+                <p id="tarjeta-descripcion">Descripción</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

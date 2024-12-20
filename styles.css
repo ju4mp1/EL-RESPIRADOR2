@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    background-color: #f0f0f0;
+}
+
+
+.contenedor-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 80%; 
+    max-width: 900px; 
+}
+
+
+.contenedor {
+    flex: 1; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: none; 
+    height: 400px; 
+}
+
+
+h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b30000;
+}
+
+
+.tarjeta img {
+    width: 120px;
+    height: auto; 
+    border-radius: 0; 
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.tarjeta h3, .tarjeta h4, .tarjeta p {
+    margin: 5px 0;
+}
+
